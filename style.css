@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  background-image:url( "images/logo5.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border:#a1aea5;
+}
+
+/* Navbar */
+.navbar {
+  background-image:url( "images/logo5.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li a {
+  text-decoration:solid;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Page Content */
+.dashboard, .section {
+  background: #45a16d;
+  background-image:url( "images/bg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+  color:black;
+  padding: 30px;
+  margin-top: 70px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border:#a1aea5;
+  border:#a1aea5;
+  border-width: 5%;;
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #a1aea5;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  border-color:#45a16d;
+  flex: 1 1 calc(25% - 20px);
+  text-align: center;
+  margin-top: 70px;
+  margin-right: 10px;
+  border: #a1aea5;
+}
+
+.data-table {
+  width: 100%;
+  
+  margin-top: 20px;
+}
+
+.data-table th {
+  padding: 12px;
+  border: 1px solid black;
+  text-align: left;
+  height: 70px;
+  background:  #a1aea5;
+}
+.data-table td{
+  padding: 12px;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.profile-card {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hr{
+  font-weight: bolder;
+}
